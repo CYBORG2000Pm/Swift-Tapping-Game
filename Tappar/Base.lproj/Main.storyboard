@@ -62,14 +62,16 @@
                                     <action selector="leftBottomButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TBc-sw-jok"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9iv-me-cj0">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9iv-me-cj0">
                                 <rect key="frame" x="16" y="323" width="10.5" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MMp-2Q-nsj">
-                                <rect key="frame" x="348.5" y="323" width="10.5" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MMp-2Q-nsj">
+                                <rect key="frame" x="302" y="323" width="10.5" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -79,11 +81,9 @@
                         <constraints>
                             <constraint firstItem="7un-Hn-1ds" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="0JH-NK-1YF"/>
                             <constraint firstItem="ueh-65-qSj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="7N2-JB-qF9"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MMp-2Q-nsj" secondAttribute="trailing" constant="16" id="9vP-hg-my2"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="1V3-bh-api" secondAttribute="bottom" constant="20" id="Aim-NL-1Dq"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ub2-4d-cHr" secondAttribute="trailing" constant="16" id="Jp4-CV-Z5N"/>
                             <constraint firstItem="1V3-bh-api" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="N34-8C-a67"/>
-                            <constraint firstItem="9iv-me-cj0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="NA8-yc-S5H"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ub2-4d-cHr" secondAttribute="bottom" constant="20" id="Ow5-hl-nwB"/>
                             <constraint firstItem="7un-Hn-1ds" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="TWI-P2-zb9"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ueh-65-qSj" secondAttribute="trailing" constant="16" id="xG6-Ke-zqU"/>
