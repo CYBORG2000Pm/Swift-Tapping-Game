@@ -24,23 +24,33 @@ class ViewController: UIViewController {
     }
 
     @IBAction func leftTopButtonPressed(_ sender: UIButton) {
-        leftScoreNumber += 1
-        leftScore.text = "\(leftScoreNumber)"
+        if leftScoreNumber != 10 && rightScoreNumber != 10 {
+            leftScoreNumber += 1
+            leftScore.text = "\(leftScoreNumber)"
+        }
     }
     
     @IBAction func rightTopButtonPressed(_ sender: UIButton) {
-        rightScoreNumber += 1
-        rightScore.text = "\(rightScoreNumber)"
+        if leftScoreNumber != 10 && rightScoreNumber != 10 {
+            rightScoreNumber += 1
+            rightScore.text = "\(rightScoreNumber)"
+        }
     }
     
     @IBAction func leftBottomButtonPressed(_ sender: UIButton) {
-        rightScoreNumber = rightScoreNumber - 1
-        rightScore.text = "\(rightScoreNumber)"
+        if leftScoreNumber != 10 && rightScoreNumber != 10 && rightScoreNumber != 0 {
+            rightScoreNumber = rightScoreNumber - 1
+            rightScore.text = "\(rightScoreNumber)"
+        }
+        
     }
     
     @IBAction func rightBottomButtonPressed(_ sender: UIButton) {
-        leftScoreNumber = leftScoreNumber - 1
-        leftScore.text = "\(leftScoreNumber)"
+        if leftScoreNumber != 10 && rightScoreNumber != 10 && leftScoreNumber != 0 {
+            leftScoreNumber = leftScoreNumber - 1
+            leftScore.text = "\(leftScoreNumber)"
+        }
+        
     }
     
 }
